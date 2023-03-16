@@ -1,0 +1,51 @@
+.faqContainer {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.faqContainer h4 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #540375;
+}
+
+.faqContainer p {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+
+
+.faqs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.faq {
+    background: #540375;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.faq p{
+    font-size: 19px;
+    color: #ffffff;
+    text-align: start;
+}
+
+.faq span{
+    margin-top: 0.5rem;
+    font-size: 17px;
+    color: #F4C018;
+}

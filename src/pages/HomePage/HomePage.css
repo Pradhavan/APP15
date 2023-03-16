@@ -1,0 +1,35 @@
+.homePageContainer{
+    width: 100vw;
+    height: 80vh;
+    background: url(../../assests/images/img1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.homePage__content{
+    margin-left: 8rem;
+}
+
+.homePage__content p{
+    font-size: 40px;
+    font-weight: 700;
+    color: #F4C018;
+
+}
+
+.homePage__content p span{
+    color: #540375;
+}
+
+.homePage__content .expertBtn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F4C018;
+    color: #ffffff;
+    padding: 0.3rem 0.9rem;
+    border-radius: 15px;
+    text-transform: capitalize;
+}

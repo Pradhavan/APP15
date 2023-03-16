@@ -1,0 +1,63 @@
+.navbarContainer{
+    width: 100vw;
+    height: 50px;
+    background: #F4C018;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.navBarContainer-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navBarContainer-left p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.navBarContainer-left p:first-child{
+    text-decoration: underline;
+}
+
+.navBarContainer-left p svg {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.navBarContainer-right{
+    width: 50%;
+    height: 100%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBarContainer-right svg{
+    font-size: 22px;
+    margin: 0 0.5rem;
+}
+
+.navBarContainer-right .loginBtn{
+    border: none;
+    outline: none;
+    background: #ffffff;
+    color: #F4C018;
+    font-size: 14px;
+    padding: 0.2rem 0.8rem;
+    margin-left: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.partnerContainer {
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.partnerContainer .lineheading-5 {
+    font-size: 16px;
+    color: #F4C018;
+    position: relative;
+}
+
+
+.partnerContainer .lineheading-5::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 350%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 2px;
+    background: #F4C018;
+    z-index: -100;
+}
+
+.partnerContainer h2 {
+    font-size: 30px;
+    color: #540375;
+}
+
+.partners__cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partner__card img{
+    width: 300px;
+    border-radius: 20px;
+    border: 4px solid #F4C018;
+}

@@ -1,0 +1,75 @@
+.ourValuesContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lineheading{
+    font-size: 16px;
+    color: #F4C018;
+    position: relative;
+}
+
+.lineheading span{
+    background: #F2F2F2;
+    padding: 0 1rem;
+    z-index: 1111;
+}
+
+.lineheading::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 2px;
+    background: #F4C018;
+    z-index: -100;
+
+}
+
+.ourValuesContainer h4{
+    color: #540375;
+    font-size: 30px;
+}
+
+.values__cards .personImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.values__cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.value-card{
+    background: #fcfcfc;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.value-card h4{
+    font-size: 18px;
+    color: #540375;
+}
+
+.value-card p{
+    font-size: 15px;
+    color: #000;
+}
