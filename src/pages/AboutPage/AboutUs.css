@@ -1,69 +1,78 @@
 .aboutUsContainer {
-    width: 70vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .aboutUsContainer-left {
-    width: 60%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-
-
-.aboutUsContainer-left h1{
-    font-size: 16px;
-    color: #F4C018;
+.aboutUsContainer-left h1 {
+  font-size: 16px;
+  color: #f4c018;
 }
 
-.aboutUsContainer-left span{
-    color: #540375;
-    font-size: 25px;
-    font-weight: 700;
+.aboutUsContainer-left span {
+  color: #540375;
+  font-size: 25px;
+  font-weight: 700;
 }
 
-.aboutUsContainer-left p{
-    color: #000;
-    font-size: 18px;
-    font-weight: 700;
+.aboutUsContainer-left p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.aboutUsContainer-left ul li{
-    color: #000;
-    font-size: 14px;
-    font-weight: 300;
+.aboutUsContainer-left ul li {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
 }
 
-.connectBtn{
-    border: none;
-    outline: none;
-    font-size: 16px;
-    background: #F4C018;
-    color: #ffffff;
-    padding: 0.3rem 0.9rem;
-    border-radius: 15px;
-    text-transform: capitalize;
+.connectBtn {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #f4c018;
+  color: #ffffff;
+  padding: 0.3rem 0.9rem;
+  border-radius: 15px;
+  text-transform: capitalize;
 }
 
 .aboutUsContainer-right {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
 .aboutUsContainer-right img {
-    width: 400px;
-    height: 300px;
-    border-radius: 20px;
-    border: 10px solid  #F4C018;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  border: 10px solid #f4c018;
+}
+@media screen and (max-width: 768px) {
+  .aboutUsContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    margin-top: 2rem;
+  }
+
+  .aboutUsContainer-left {
+    gap: 2rem;
+  }
 }
